@@ -17,10 +17,10 @@ def permutations?(string1, string2)
     end
     letters
   end
-# call helper method for input strings
+# call helper method on input strings
   string1_hash = str_to_hash(string1)
   string2_hash = str_to_hash(string2)
-#  compare hashes for equality
+#  compare hashes
   if string1_hash != string2_hash
     false
   else
